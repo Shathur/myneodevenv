@@ -5,7 +5,7 @@ sudo apt update &&
 sudo apt upgrade -y &&
 
 # reason we are here
-sudo apt install neovim
+sudo apt install neovim -y
 
 # necessary for python
 sudo apt install python3-pip -y
