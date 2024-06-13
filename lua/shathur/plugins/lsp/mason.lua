@@ -1,7 +1,7 @@
-return{
+return {
 	"williamboman/mason.nvim",
 	dependencies = {
-		"williambosan/mason-lspconfig.nvim",
+		"williamboman/mason-lspconfig.nvim",
 		"WhoIsSethDaniel/mason-tool-installer.nvim",
 	},
 	config = function()
@@ -32,7 +32,7 @@ return{
 				"stylua", -- lua formatter
 				"black", -- python formatter
 				"ruff", -- python linter (and maybe formatter)
-			}
+			},
 		})
 	end,
 }
