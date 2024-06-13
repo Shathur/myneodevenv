@@ -18,6 +18,9 @@ make CMAKE_BUILD_TYPE=RelWithDebInfo
 # create deb and install, to be able to uninstall easier
 cd build && cpack -G DEB && sudo dpkg -i nvim-linux64.deb
 
+# install extra dependencies to accomodate our setup
+sudo apt install ripgrep
+
 # necessary for python
 # sudo apt install python3-pip -y
 # sudo apt install python3-venv -y
