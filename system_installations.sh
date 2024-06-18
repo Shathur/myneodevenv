@@ -19,8 +19,9 @@ make CMAKE_BUILD_TYPE=RelWithDebInfo
 cd build && cpack -G DEB && sudo dpkg -i nvim-linux64.deb
 
 # install extra dependencies to accomodate our setup
-sudo apt install ripgrep
+sudo apt install ripgrep -y # for treesitter
+sudo apt install npm -y # for pyright
 
 # necessary for python
-# sudo apt install python3-pip -y
-# sudo apt install python3-venv -y
+sudo apt install python3-pip -y
+sudo apt install python3-venv -y
