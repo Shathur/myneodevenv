@@ -21,6 +21,7 @@ cd build && cpack -G DEB && sudo dpkg -i nvim-linux64.deb
 # install extra dependencies to accomodate our setup
 sudo apt install ripgrep -y # for treesitter
 sudo apt install npm -y # for pyright
+sudo apt-get install pkg-config libhdf5-hl-100 libhdf5-dev # for h5py, which is needed for torch, necessary for aarch64 installation
 
 # necessary for python
 sudo apt install python3-pip -y
