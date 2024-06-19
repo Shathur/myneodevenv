@@ -24,9 +24,9 @@ return {
 			-- your options
 		})
 		-- repl with sniprun
-		vim.keymap.set("v", "<C-c><C-c>", "<cmd>SnipRun<CR>")
-		vim.keymap.set("n", "<C-c><C-x>", "<cmd>SnipClose<CR>")
-		vim.keymap.set("n", "<C-c><C-i>", "<cmd>SnipInfo<CR>")
-		vim.keymap.set("n", "<C-c><C-r>", "<cmd>SnipReset<CR>")
+		-- vim.keymap.set("v", "<C-c><C-c>", "<cmd>SnipRun<CR>")
+		-- vim.keymap.set("n", "<C-c><C-x>", "<cmd>SnipClose<CR>")
+		-- vim.keymap.set("n", "<C-c><C-i>", "<cmd>SnipInfo<CR>")
+		-- vim.keymap.set("n", "<C-c><C-r>", "<cmd>SnipReset<CR>")
 	end,
 }
