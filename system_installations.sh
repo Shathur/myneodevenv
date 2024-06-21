@@ -22,7 +22,8 @@ cd build && cpack -G DEB && sudo dpkg -i nvim-linux64.deb
 sudo apt install ripgrep -y # for treesitter
 sudo apt-get install pkg-config libhdf5-hl-100 libhdf5-dev # for h5py, which is needed for torch, necessary for aarch64 installation
 
-get the latest version of node.js, necessary for our lsp config (pyright)
+# get the latest version of node.js, necessary for our lsp config (pyright)
+# for the changes to take place maybe you need to close and open the terminal
 HTTP_CODE=$(curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash)
 source ~/.nvm/nvm.sh
 nvm install 20 # safe to install the latest LTS version
