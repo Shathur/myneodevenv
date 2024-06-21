@@ -12,7 +12,8 @@ echo "export PATH="$PATH:/opt/nvim-linux64/bin"" >> ~/.bashrc
 sudo chown -R $USER ~/.config/nvim/
 
 # molten plugin needs runtime folder
-mkdir ~/.local/share/jupyter/
+sudo mkdir ~/.local/share/
+sudo mkdir ~/.local/share/jupyter/
 cd ~/.local/share/jupyter/
 mkdir runtime
 chmod a+w runtime
