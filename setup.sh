@@ -1,22 +1,22 @@
 #! /bin/bash
 
-# sudo mkdir ~/.config/
-# sudo mkdir ~/.config/nvim/
+sudo mkdir ~/.config/
+sudo mkdir ~/.config/nvim/
 sudo mkdir ~/.local/share/
 sudo mkdir ~/.local/share/nvim/
-# sudo cp -r ./* ~/.config/nvim/
-# sudo cp .tmux.conf ~/.tmux.conf
-# 
+sudo cp -r ./* ~/.config/nvim/
+sudo cp .tmux.conf ~/.tmux.conf
+ 
 # # don't forget to add the nvim executable to path
-# echo "export PATH="$PATH:/opt/nvim-linux64/bin"" >> ~/.bashrc
-# 
+echo "export PATH="$PATH:/opt/nvim-linux64/bin"" >> ~/.bashrc
+ 
 # # problem with ownership while updating lazy-lock.json file is solved with
-# sudo chown -R $USER ~/.config/nvim/
+sudo chown -R $USER ~/.config/nvim/
 sudo chown -R $USER ~/.local/share/nvim/
-# 
-# # molten plugin needs runtime folder
-# sudo mkdir ~/.local/share/
-# sudo mkdir ~/.local/share/jupyter/
+ 
+# molten plugin needs runtime folder
+sudo mkdir ~/.local/share/
+sudo mkdir ~/.local/share/jupyter/
 cd ~/.local/share/jupyter/
 sudo mkdir runtime
 sudo chmod a+w runtime
