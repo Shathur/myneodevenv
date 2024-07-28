@@ -14,7 +14,7 @@ sudo apt-get install ninja-build gettext cmake unzip curl build-essential
 git clone https://github.com/neovim/neovim
 cd neovim
 # we want stable version
-git checkout
+git checkout stable
 # build
 make CMAKE_BUILD_TYPE=RelWithDebInfo
 # create deb and install, to be able to uninstall easier
