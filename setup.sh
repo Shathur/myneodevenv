@@ -27,3 +27,6 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 # Reload TMUX env so TPM is sourced
 # tmux source ~/.tmux.conf
 # Now from inside a TMUX session press prefix + I to fetch the plugins
+
+# send the openaiapikey.txt.gpg to the proper place
+cp openaiapikey.txt.gpg ~/.config/
