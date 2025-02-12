@@ -33,3 +33,6 @@ nvm install 20 # safe to install the latest LTS version
 # necessary for python
 sudo apt install python3-pip -y
 sudo apt install python3-venv -y
+
+# necessary if you want to run optuna and save to a database, for installing pip install mysqlclient
+# sudo apt-get install python3-dev default-libmysqlclient-dev build-essential
